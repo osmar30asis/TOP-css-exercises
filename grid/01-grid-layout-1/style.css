@@ -33,26 +33,17 @@ body, html {
 
 .sidebar {
   background-color: #FF7755;
-  grid-row-start: 2;
-  grid-row-end: 4;
-  grid-column-start: 1;
-  grid-column-end: 2;
+  grid-area: 2 / 1 / 4 / 2;
 }
 
 .nav {
   background-color: #00DDFF;
-  grid-row-start: 2;
-  grid-row-end: 3;
-  grid-column-start: 2;
-  grid-column-end: 3;
+  grid-area: 2 / 2 / 3 / 3;
 }
 
 .article {
   background-color: #bccbde;
-  grid-row-start: 3;
-  grid-row-end: 4;
-  grid-column-start: 2;
-  grid-column-end: 3;
+  grid-area: 3 / 2 / 4 / 3;
 }
 
 .article p {
@@ -64,8 +55,5 @@ body, html {
 
 .footer {
   background-color: #393f4d;
-  grid-row-start: 4;
-  grid-row-end: 5;
-  grid-column-start: 1;
-  grid-column-end: 3;
+  grid-area: 4 / 1 / 5 / 3;
 }
